@@ -15,6 +15,9 @@ body {
   color: #434455;
   background-color: var(--background-color);
 }
+img {
+  display: block;
+}
 .list {
   list-style: none;
 }
