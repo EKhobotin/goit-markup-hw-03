@@ -108,7 +108,6 @@ img {
 /* ==================HERO PAGE======================= */
 .hero {
   background-color: var(--bg-color-section);
-  /* background-image: url(../images/our-team/camila-garcia.jpg); */
 }
 .text-hero {
   text-align: center;
@@ -135,6 +134,8 @@ img {
 .button:focus {
   background-color: #404bbf;
 }
+/* ================FEATURES============== */
+
 .list-title {
   font-family: Roboto;
   font-size: 20px;
