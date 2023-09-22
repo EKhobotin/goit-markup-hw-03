@@ -160,7 +160,7 @@ img {
 .feature-list.list {
   gap: 24px;
 }
-.list-item-feature {
+.list-item-featur {
   width: calc((100% - 72px) / 4);
 }
 .list-title {
