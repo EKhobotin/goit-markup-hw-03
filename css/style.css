@@ -17,6 +17,9 @@ body {
 img {
   display: block;
 }
+a {
+  display: inline-block;
+}
 .list,
 ul,
 ol {
