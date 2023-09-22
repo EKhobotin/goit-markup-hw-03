@@ -8,9 +8,7 @@
   --bg-color-section: #2e2f42;
   --light-color: #e7e9fc;
 }
-* {
-  margin: 0;
-}
+
 body {
   font-family: "Roboto", sans-serif;
   color: #434455;
@@ -22,6 +20,8 @@ img {
 .list {
   list-style: none;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
 .link {
   text-decoration: none;
