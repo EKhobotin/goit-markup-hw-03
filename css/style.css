@@ -175,6 +175,22 @@ img {
   color: var(--contacts-color);
 }
 /* =====================DOING=================== */
+.doing {
+  padding-bottom: 120px;
+}
+.doing .container {
+  flex-direction: column;
+}
+.title-doing {
+  margin-bottom: 72px;
+}
+.list-doing {
+  gap: 24px;
+}
+.list-doing-item {
+  width: calc((100%-2 * 24px) / 3);
+}
+
 .title {
   font-size: 36px;
   text-align: center;
@@ -184,6 +200,8 @@ img {
   text-transform: capitalize;
   color: var(--text-color);
 }
+
+/* ==================TEAM============= */
 .teams {
   background-color: #f4f4fd;
 }
