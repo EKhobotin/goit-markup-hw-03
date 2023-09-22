@@ -14,12 +14,17 @@ body {
   color: #434455;
   background-color: var(--background-color);
 }
+h1,
+h2,
+h3,
+p {
+  margin: 0 auto;
+  padding: 0;
+}
 img {
   display: block;
 }
-a {
-  display: inline-block;
-}
+
 .list,
 ul,
 ol {
@@ -32,7 +37,6 @@ ol {
   text-decoration: none;
 }
 .container {
-  display: flex;
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
@@ -53,6 +57,7 @@ ol {
 }
 /* ==============HEADER========= */
 .container.header {
+  display: flex;
   justify-content: space-between;
 }
 .page-nav {
@@ -117,7 +122,7 @@ ol {
   padding: 188px 0;
 }
 .hero .container {
-  flex-direction: column;
+  /* flex-direction: column; */
 }
 .text-hero {
   text-align: center;
