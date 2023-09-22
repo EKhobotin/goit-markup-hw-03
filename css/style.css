@@ -151,10 +151,10 @@ img {
 .features {
   padding: 120px 0;
 }
-.features.list {
+.features-list {
   gap: 24px;
 }
-.list-item {
+.features-list.list-item {
   width: calc((100%-3 * 24px) / 4);
 }
 .list-title {
