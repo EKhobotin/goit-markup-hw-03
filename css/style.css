@@ -17,7 +17,9 @@ body {
 img {
   display: block;
 }
-.list {
+.list,
+ul,
+ol {
   list-style: none;
   display: flex;
   margin: 0;
